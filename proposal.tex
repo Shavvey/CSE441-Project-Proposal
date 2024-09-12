@@ -1,4 +1,5 @@
 \documentclass[12pt,english]{article}
+\usepackage{geometry}[margin=2]
 \usepackage{blindtext}
 \usepackage{enumerate}
 \usepackage{parskip} 
@@ -15,7 +16,26 @@
     \\ 
     John Runyon
 }
-\title{CSE441: Project Proposal}
+\title{
+    CSE441: Project Proposal\\
+    \large{Cryptanalysis of Hash Functions}
+}
 \begin{document}
 \maketitle
+\section*{Introduction and Outline of Project}
+Hashing, as an overall process, is a function that maps
+plaintext data of any length into a fixed-length ciphertext
+output--often called a digest. Hash functions, unlike encryption,
+destroy information encoded in the plaintext, which means
+the function is one-way and cannot be reversed to obtain
+the plaintext again.
+Hash functions are a widely used cryptographic algorithm.
+They can be used for a variety of purposes, such as
+data integrity verification, password storage, and digital
+fingerprint/signatures, and data indexing (often called hash-tables).
+Since hash functions serve vital purposes in modern cryptography
+and computer science, knowing the important mathematical properties
+of a hash function (and how these can be implemented in programs)
+is critical to understanding their function. Once the function and
+real-world implementation
 \end{document}
