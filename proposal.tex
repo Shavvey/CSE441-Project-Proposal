@@ -36,7 +36,7 @@ the plaintext again.
 
 \begin{wrapfigure}{r}{0.5\textwidth}
     \begin{center}
-      \includegraphics[width=0.3\textwidth]{images/hash_function.png}
+      \includegraphics[clip=true,height=5cm, width=0.3\textwidth]{images/hash_function.png}
     \end{center}
     \caption{Basic diagram of a hash function}
   \end{wrapfigure}
@@ -52,10 +52,29 @@ is critical to understanding their function. Once the function and
 real-world implementation
 
 \subsection{Outline of Project}
-Here is the sections of the project, along 
-with a small description of what each of the
-sections would cover:
-\begin{enumerate}[{\bf a.}]
-    \item 
+Here is the sections of the project, along with a small description 
+of what each of the sections would cover:
+\begin{enumerate}[{\bf (a.)}]
+    \item Introduction to Hash Functions
+    \begin{enumerate}
+        \item Basics of Hash Functions
+        \item Modern and Classic Applications of Hash Functions
+        \item Hash Functions Examples (MD5, SHA-256, Tornado)
+    \end{enumerate} 
+    \item Properties of Hash Functions
+    \begin{enumerate}
+        \item One-way Function (Pre-Image Resistance)
+        \item Target Collision Resistance (2nd Pre-Image Resistance)
+        \item Deterministic
+        \item Avalanche Effect
+        \item Computational Speed
+    \end{enumerate}
+    \item Cryptanalysis and Attacks on Cryptographic Hash Functions
+    \begin{enumerate}
+        \item Brute-Force Attacks
+        \item One-way Function Inversion
+        \item 2nd Pre-Image Resistance Attack
+        \item Collision Attack
+    \end{enumerate}
 \end{enumerate}
 \end{document}
