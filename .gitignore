@@ -1,5 +1,5 @@
-proposal.aux
-proposal.fdb_latexmk
-proposal.fls
-proposal.log
-proposal.out
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out

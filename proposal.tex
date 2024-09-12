@@ -11,10 +11,13 @@
 \usepackage{listings}
 \usepackage{inconsolata}
 \usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{./images}
 \author{
-    Cole Johnson 
+    Cole Johnson: \texttt{cole.johnson.@student.nmt.edu}
     \\ 
-    John Runyon
+    John Runyon: \texttt{john.runyon@student.nmt.edu}
 }
 \title{
     CSE441: Project Proposal\\
@@ -23,12 +26,21 @@
 \begin{document}
 \maketitle
 \section*{Introduction and Outline of Project}
+\subsection{The Basics of Hash Functions}
 Hashing, as an overall process, is a function that maps
 plaintext data of any length into a fixed-length ciphertext
 output--often called a digest. Hash functions, unlike encryption,
 destroy information encoded in the plaintext, which means
 the function is one-way and cannot be reversed to obtain
 the plaintext again.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \begin{center}
+      \includegraphics[width=0.3\textwidth]{images/hash_function.png}
+    \end{center}
+    \caption{Basic diagram of a hash function}
+  \end{wrapfigure}
+
 Hash functions are a widely used cryptographic algorithm.
 They can be used for a variety of purposes, such as
 data integrity verification, password storage, and digital
@@ -38,4 +50,12 @@ and computer science, knowing the important mathematical properties
 of a hash function (and how these can be implemented in programs)
 is critical to understanding their function. Once the function and
 real-world implementation
+
+\subsection{Outline of Project}
+Here is the sections of the project, along 
+with a small description of what each of the
+sections would cover:
+\begin{enumerate}[{\bf a.}]
+    \item 
+\end{enumerate}
 \end{document}
